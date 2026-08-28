@@ -1,0 +1,58 @@
+/* Estilos Globales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Sección Hero (Cabecera) */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+                url('https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm01-tveweWUcVwYx8yQMZDTlhO3Is3gjjeY9D7IE-AJ3ajDd0IaqYN9YLry_sIVyVcE9YoINtoU78D1SYN9PVxW5I1DqBTdB0a4691Oy5eV9g_TPMF4rzLzDeR-UBykui3T9f_=s1360-w1360-h1020-rw') no-repeat center center;
+    background-size: cover;
+    min-height: 85vh;
+}
+
+/* Efectos visuales en tarjetas de horarios */
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Sombras suaves para secciones de texto */
+section {
+    overflow: hidden;
+}
+
+/* ==========================================
+   Tarjetas de Sacramentos con Fondo de Imagen
+   ========================================== */
+
+/* Estilos base para las tarjetas de sacramentos */
+.sacramento-card {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    color: #ffffff;
+}
+
+/* Fondo para Bautizos (Cambia la URL entre las comillas) */
+.card-bautizos {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), 
+                url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlKPPy8SXOYsaLzgpNBPk2_Hh3aYSdS0rzd64xzVFSeDm6udDvfWiKEvlA&s=10');
+}
+
+/* Fondo para Matrimonios (Cambia la URL entre las comillas) */
+.card-matrimonios {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), 
+                url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwSfxE9R7vm6E0AKPJ14EDQOdKBozFjtNZIWOoYQC-h_QxPiknIrF0_HU&s=10');
+}
+
+/* Fondo para Catequesis (Cambia la URL entre las comillas) */
+.card-catequesis {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), 
+                url('https://img.magnific.com/vector-gratis/jesus-dibujado-mano-ninos-ilustracion_23-2149928743.jpg?semt=ais_hybrid&w=740&q=80');
+}
